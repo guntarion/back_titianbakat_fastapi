@@ -1,0 +1,216 @@
+{
+    "quiz_id": "quiz_1",
+    "quiz_title": "Personality Plus",
+    "questions": [
+        {
+            "question_id": "q1",
+            "question_text": "Bagaimana Anda menyikapi suasana baru yang Anda alami",
+            "options": {
+                "type_1": "Anda akan membuat suasana baru tersebut menjadi suasana yang menyenangkan dan penuh dengan humor",
+                "type_2": "Anda akan membuat suasana baru tersebut menjadi suasana yang penuh dengan kompetisi",
+                "type_3": "Anda akan mengorganisir suasana baru tersebut sesuai dengan keinginan Anda",
+                "type_4": "Anda akan sangat menikmati suasana baru tersebut, apapun suasananya"
+            }
+        },
+        {
+            "question_id": "q2",
+            "question_text": "Apa yang sekiranya ada di pikiran teman-teman Anda tentang diri Anda?,",
+            "options": {
+                "type_1": "Saya adalah pribadi yang riang dan pintar menceriakan suasana",
+                "type_2": "Saya adalah pribadi yang tegas, kuat dan dominan",
+                "type_3": "Saya adalah pribadi yang rajin dan begitu perasa/peka",
+                "type_4": "Saya adalah pribadi yang begitu santai dan asyik diajak berteman"
+            }
+        },
+        {
+            "question_id": "q2",
+            "question_text": "Bagaimanakah rasa percaya diri Anda?,",
+            "options": {
+                "type_1": "Saya sangat percaya diri untuk menghadapi semua orang, karena saya merasa menarik baik dari penampilan maupun kepribadian",
+                "type_2": "Saya percaya diri dan sangat yakin; jika suatu urusan saya pegang pasti akan teratasi",
+                "type_3": "Saya kurang percaya diri dan cenderung khawatir",
+                "type_4": "Saya memiliki rasa percaya diri yang biasa saja karena saya cenderung bersikap santai dan tidak suka jadi pusat perhatian"
+            }
+        },
+        {
+            "question_id": "q2",
+            "question_text": "Apa yang membuat Anda berbeda dari orang lain?,",
+            "options": {
+                "type_1": "Saya begitu energik, suka berbicara dan optimis, saya mampu membuat suasana menjadi menyenangkan",
+                "type_2": "Saya begitu mandiri, suka dengan perubahan, dan mampu memecahkan masalah dengan cepat dan tepat",
+                "type_3": "Saya pemikir, suka dengan hal yang rapi dan teratur, saya mampu memahami perasaan orang lain dan mudah terharu",
+                "type_4": "Saya begitu tenang dan tekendali, suka dengan kedamaian, saya mampu mengawasi orang dan mampu menjadi penengah masalah"
+            }
+        },
+        {
+            "question_id": "q2",
+            "question_text": "Suasana seperti apa yang selalu Anda rindukan?,",
+            "options": {
+                "type_1": "Saya merindukan suasana pesta yang penuh dengan keramaian dan keceriaan , dan saya bisa berinteraksi dengan banyak orang",
+                "type_2": "Saya merindukan semua suasana, saya selalu mampu mengendalikan setiap suasana",
+                "type_3": "Saya merindukan suasana yang terencana dan teratur",
+                "type_4": "Saya merindukan suasana pegunungan yang penuh kedamaian dan jauh dari keributan/kekacauan"
+            }
+        },
+        {
+            "question_id": "q2",
+            "question_text": "Ketika Anda mendapatkan masalah, tindakan pertama yang Anda lakukan?,",
+            "options": {
+                "type_1": "Saya akan menceritakan masalah tersebut kepada teman dekat saya secepatnya",
+                "type_2": "Saya langsung mengatasi masalah tersebut, dan tidak membiarkan masalah tersebut berlarut-larut",
+                "type_3": "Saya akan menganalisa masalah itu terlebih dahulu, setelah itu mengatasi dengan segera",
+                "type_4": "Saya akan tenang, jika saya mampu mengatasi saya akan mencoba tetapi jika memang tidak bisa saya biarkan dulu masalah tersebut"
+            }
+        },
+        {
+            "question_id": "q2",
+            "question_text": "Anda suka dengan hal baru?,",
+            "options": {
+                "type_1": "Saya suka hal baru karena saya bosan dengan yang sudah ada",
+                "type_2": "Saya suka hal baru  karena bagi saya hal baru adalah tantangan",
+                "type_3": "Saya kurang suka dengan hal baru, dan senang dengan hal-hal lama yang sudah biasa bagi saya.",
+                "type_4": "Saya tidak peduli hal baru atau hal lama karena bagi saya keduanya sama asiknya."
+            }
+        },
+        {
+            "question_id": "q2",
+            "question_text": "Bagaimana Anda berinteraksi dengan orang lain?,",
+            "options": {
+                "type_1": "Saya begitu ekspresif dalam mengungkapkan gagasan dan penuh dengan bahasa tubuh",
+                "type_2": "Saya begitu yakin dan dominan",
+                "type_3": "Begitu mempertimbangkan kebutuhan, harapan dan perasaan orang lain ",
+                "type_4": "Saya penuh dengan diplomasi untuk menghindari pertikaian"
+            }
+        },
+        {
+            "question_id": "q2",
+            "question_text": "Bagaimana selera berbusana Anda?,",
+            "options": {
+                "type_1": "Anda suka pada busana dengan warna yang terang sehingga terkesan ramai dan penuh semangat",
+                "type_2": "Anda suka busana yang rapi dan terkesan resmi",
+                "type_3": "Anda suka busana yang anggun, tidak terlalu berani warnanya",
+                "type_4": "Anda suka busana yang sederhana dan tidak ribet"
+            }
+        },
+        {
+            "question_id": "q2",
+            "question_text": "Pekerjaan mana yang menurut Anda paling nyaman untuk Anda?,",
+            "options": {
+                "type_1": "Pembicara",
+                "type_2": "Pelaku atau pemimpin",
+                "type_3": "Pemikir",
+                "type_4": "Pengawas"
+            }
+        },
+        {
+            "question_id": "q2",
+            "question_text": "Apa yang menjadi masalah Anda?,",
+            "options": {
+                "type_1": "Anda kurang disiplin, bisa senang atau sedih dalam sekejap dan Anda juga mudah dipengaruhi",
+                "type_2": "Anda kurang bisa memperhatikan perasaan orang lain dan Anda keras kepala",
+                "type_3": "Anda pemalu dan sering merasa tertekan dengan masalah yang terjadi pada Anda",
+                "type_4": "Anda cuek sekali dan lamban dalam mengambil keputusan ataupun bertindak"
+            }
+        },
+        {
+            "question_id": "q2",
+            "question_text": "Bagaimana sikap Anda dengan lingkungan disekitar Anda?,",
+            "options": {
+                "type_1": "Anda ramah dan penuh senyum",
+                "type_2": "Anda dominan, tegas dan mandiri",
+                "type_3": "Anda mudah dibuat sungkan oleh orang lain",
+                "type_4": "Anda menyenangkan meski terkadang kurang peduli pada lingkungan Anda"
+            }
+        },
+        {
+            "question_id": "q2",
+            "question_text": "Mana yang lebih menarik untuk Anda?,",
+            "options": {
+                "type_1": "Bertemu dan bergembira dengan banyak orang ",
+                "type_2": "Memulai dan menyelesaikan pekerjaan",
+                "type_3": "Mengatasi setiap masalah",
+                "type_4": "Menikmati hidup dengan santai dan damai"
+            }
+        },
+        {
+            "question_id": "q2",
+            "question_text": "Bagaimana Anda ketika dalam sebuah rapat yang serius?,",
+            "options": {
+                "type_1": "Anda tidak suka untuk berpikir terlalu  serius, Anda lebih senang kegiatan yang asik-asik saja",
+                "type_2": "Anda akan berusaha mempertahankan pendapat Anda dalam rapat tersebut",
+                "type_3": "Anda mengikuti rapat dengan tenang dan penuh dengan analisa yang mendalam dalam menghadapi bahsan dalam rapat tersebut",
+                "type_4": "Anda menjadi peserta rapat yang cukup anteng"
+            }
+        },
+        {
+            "question_id": "q2",
+            "question_text": "Kata mana yang mewakili diri Anda,",
+            "options": {
+                "type_1": "Ramai ",
+                "type_2": "Dominan ",
+                "type_3": "Teratur",
+                "type_4": "Santai"
+            }
+        },
+        {
+            "question_id": "q2",
+            "question_text": "Apa yang membuat Anda berbeda dengan  orang lain?,",
+            "options": {
+                "type_1": "Anda pandai membuat gurauan dan cerita-cerita lucu",
+                "type_2": "Anda begitu mandiri, tegas dan sangat dominan",
+                "type_3": "Anda begiu rapi dan teratur",
+                "type_4": "Anda begitu tenang, terkendali dan sangat stabil"
+            }
+        },
+        {
+            "question_id": "q2",
+            "question_text": "Suasana mana yang lebih nyaman bagi Anda?,",
+            "options": {
+                "type_1": "Suasana yang ramai dan Anda bisa berinteraksi dengan banyak orang",
+                "type_2": "Suasana yang selalu ada kompetisi baru",
+                "type_3": "Suasana yang terencana dengan baik",
+                "type_4": "Suasana yang damai dan jauh dari kekacauan"
+            }
+        },
+        {
+            "question_id": "q2",
+            "question_text": "Bila di sekitar lingkungan Anda ada masalah, apa yang Anda lakukan?,",
+            "options": {
+                "type_1": "Anda akan tetap ceria dan bercerita tentang kisah-kisah lucu kepada orang disekitar Anda",
+                "type_2": "Anda akan memegang kendali masalah tersebut dan berusaha menyelesaikan masalah tersebut dengan cepat dan tepat",
+                "type_3": "Anda akan berusaha menyelesaikan masalah dengan tenang dan sangat penuh dengan analisa",
+                "type_4": "Anda akan bersikap biasa saja dan tetap tenang"
+            }
+        },
+        {
+            "question_id": "q2",
+            "question_text": "Bagaimana Anda di depan teman-teman Anda?,",
+            "options": {
+                "type_1": "Merupakan teman yang mampu membuat suasana menjadi ceria dan ramai diantara teman-teman Anda",
+                "type_2": "Merupakan teman yang mampu memimpin teman-teman Anda",
+                "type_3": "Merupakan teman yang mampu merencanakan sesuatu.",
+                "type_4": "Merupakan teman yang mampu mendengarkan cerita teman-teman Anda"
+            }
+        },
+        {
+            "question_id": "q2",
+            "question_text": "Bagaimana Anda berinteraksi dengan orang lain?,",
+            "options": {
+                "type_1": "Anda begitu atraktif pada  orang lain",
+                "type_2": "Anda begitu dominan pada orang lain",
+                "type_3": "Anda begitu memahami perasaan dan kebutuhan orang lain",
+                "type_4": "Anda menghindari konflik dengan orang lain"
+            }
+        },
+        {
+            "question_id": "q2",
+            "question_text": "Apa keistimewaan dari diri Anda?,",
+            "options": {
+                "type_1": "Anda mampu membuat suasana menjadi ramai dan ceria",
+                "type_2": "Anda mampu bertahan dan berkembang saat masa-masa kritis",
+                "type_3": "Anda mampu menguraikan dan memecahkan masalah",
+                "type_4": "Anda bisa sangat menikmati sesuatu yang kadang tidak Anda sukai"
+            }
+        }
+    ]
+}

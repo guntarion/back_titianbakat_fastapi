@@ -1,8 +1,11 @@
-from fastapi import FastAPI, Request, UploadFile, File
+from fastapi import FastAPI, Request, UploadFile, File, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from app.processor.processor_fgpr import process_fingerprint_data
 from app.processor.processor_openai import analyze_fingerprint
 from app.router.router_user import router as user_router  # Import the user router
+
+import json
+import os
 
 app = FastAPI()
 
@@ -31,6 +34,19 @@ async def finger_type_ridge(request: Request):
 @app.post("/api/analyze-fingerprint")
 async def analyze_fingerprint_endpoint(file: UploadFile = File(...)):
     return await analyze_fingerprint(file)
+
+@app.get("/api/quizzes/{quiz_id}")
+async def get_quiz(quiz_id: str):
+    try:
+        file_path = f"./app/quiztext/{quiz_id}.json"
+        if not os.path.exists(file_path):
+            raise HTTPException(status_code=404, detail="Quiz not found")
+        
+        with open(file_path, 'r', encoding='utf-8') as f:
+            quiz_data = json.load(f)
+        return quiz_data
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
 
 if __name__ == "__main__":
     import uvicorn

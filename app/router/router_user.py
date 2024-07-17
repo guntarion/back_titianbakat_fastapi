@@ -18,20 +18,27 @@ async def create_user(user: User):
 
 @router.get("/users/{user_id}")
 async def get_user(user_id: str):
-    user = users_collection.find_one({"_id": ObjectId(user_id)})
-    if user:
-        return user
-    else:
-        raise HTTPException(status_code=404, detail="User not found")
+    try:
+        user = users_collection.find_one({"_id": ObjectId(user_id)})
+        if user:
+            user["_id"] = str(user["_id"])
+            return user
+        else:
+            raise HTTPException(status_code=404, detail="User not found")
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
 
 @router.put("/users/{user_id}")
 async def update_user(user_id: str, user: User):
-    existing_user = users_collection.find_one({"_id": ObjectId(user_id)})
-    if existing_user:
-        users_collection.update_one({"_id": ObjectId(user_id)}, {"$set": user.dict()})
-        return {"message": "User updated successfully"}
-    else:
-        raise HTTPException(status_code=404, detail="User not found")
+    try:
+        existing_user = users_collection.find_one({"_id": ObjectId(user_id)})
+        if existing_user:
+            users_collection.update_one({"_id": ObjectId(user_id)}, {"$set": user.dict()})
+            return {"message": "User updated successfully"}
+        else:
+            raise HTTPException(status_code=404, detail="User not found")
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
 
 @router.get("/test-connection/")
 async def test_connection():
