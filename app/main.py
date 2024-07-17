@@ -1,7 +1,8 @@
 from fastapi import FastAPI, Request, UploadFile, File
 from fastapi.middleware.cors import CORSMiddleware
-from .processor.processor_fgpr import process_fingerprint_data
-from .processor.processor_openai import analyze_fingerprint
+from app.processor.processor_fgpr import process_fingerprint_data
+from app.processor.processor_openai import analyze_fingerprint
+from app.router.router_user import router as user_router  # Import the user router
 
 app = FastAPI()
 
@@ -13,6 +14,9 @@ app.add_middleware(
     allow_methods=["*"],  # Allows all methods
     allow_headers=["*"],  # Allows all headers
 )
+
+# Include the user router
+app.include_router(user_router, prefix="/api", tags=["users"])
 
 @app.get("/")
 async def root():
