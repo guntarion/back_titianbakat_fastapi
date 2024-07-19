@@ -1,0 +1,26 @@
+{
+    "quiz_id": "quiz_01_riasec",
+    "quiz_title": "RIASEC Assessment",
+    "statements": [
+        {
+            "number": 1,
+            "type": "type_realistic",
+            "statement": "Berpikir praktis dan suka tugas-tugas yang jelas dan terstruktur, seperti mengikuti instruksi perakitan."
+        },
+        {
+            "number": 2,
+            "type": "type_artistic",
+            "statement": "Memiliki pandangan dan cara berpikir yang unik, seperti melihat dunia dari sudut yang berbeda."
+        },
+        {
+            "number": 3,
+            "type": "type_conventional",
+            "statement": "Membuat pencatatan yang akurat dan formal, seperti mencatat catatan rapat dengan rapi."
+        },
+        {
+            "number": 4,
+            "type": "type_investigative",
+            "statement": "Berpikir rasional, seperti membuat keputusan berdasarkan fakta dan logika."
+        }
+    ]
+}

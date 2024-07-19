@@ -6,7 +6,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 MONGO_URI = os.getenv("MONGO_URI")
-# print("Mongo URI:", MONGO_URI)  # Debugging print statement
 client = MongoClient(MONGO_URI)
-db = client.get_database("db-titian-bakat")  # Replace with your actual database name
+db = client.get_database("db-titian-bakat")
+
 users_collection = db.get_collection("user")
+quiz_responses_collection = db.get_collection("quiz_responses")
