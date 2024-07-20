@@ -1,0 +1,106 @@
+{
+    "quiz_id": "riasec_001",
+    "quiz_title": "RIASEC Assessment",
+    "statements": [
+        {
+            "number": 1,
+            "type": "type_realistic",
+            "statement": "Berpikir praktis dan suka tugas-tugas yang jelas dan terstruktur, seperti mengikuti instruksi perakitan."
+        },
+        {
+            "number": 2,
+            "type": "type_artistic",
+            "statement": "Memiliki pandangan dan cara berpikir yang unik, seperti melihat dunia dari sudut yang berbeda."
+        },
+        {
+            "number": 3,
+            "type": "type_social",
+            "statement": "Menikmati bekerja dengan anak-anak muda dan bahkan anak-anak, seperti menjadi sukarelawan di tempat penitipan anak."
+        },
+        {
+            "number": 4,
+            "type": "type_enterprising",
+            "statement": "Menemui dan menjalin hubungan dengan orang penting, seperti berbicara dengan guru atau kepala sekolah untuk proyek kelas."
+        },
+        {
+            "number": 5,
+            "type": "type_enterprising",
+            "statement": "Memiliki semangat petualang, seperti mencoba hal-hal baru dan berbeda."
+        },
+        {
+            "number": 6,
+            "type": "type_realistic",
+            "statement": "Fokus pada penyelesaian tugas secara efisien dan tepat waktu, seperti menyelesaikan proyek sesuai deadline."
+        },
+        {
+            "number": 7,
+            "type": "type_conventional",
+            "statement": "Menikmati kegiatan yang melibatkan pengolahan informasi dan administrasi, seperti mengatur dokumen di perpustakaan sekolah."
+        },
+        {
+            "number": 8,
+            "type": "type_enterprising",
+            "statement": "Menjadi pengawas atas kerja orang lain, seperti mengawasi teman-teman dalam proyek kelompok."
+        },
+        {
+            "number": 9,
+            "type": "type_investigative",
+            "statement": "Mempertanyakan asumsi dan mencari bukti sebelum menerima kesimpulan, seperti membaca beberapa artikel sebelum mempercayai informasi."
+        },
+        {
+            "number": 10,
+            "type": "type_social",
+            "statement": "Menyukai aktivitas yang melibatkan pengajaran, pembimbingan, atau perawatan, seperti menjadi mentor di program komunitas."
+        },
+        {
+            "number": 11,
+            "type": "type_investigative",
+            "statement": "Lebih tertarik pada pekerjaan yang melibatkan pengetahuan dan informasi daripada interaksi sosial, seperti membaca buku sains daripada menghadiri pesta."
+        },
+        {
+            "number": 12,
+            "type": "type_artistic",
+            "statement": "Menggunakan seni untuk menyampaikan pesan atau emosi, seperti melukis untuk mengekspresikan perasaan."
+        },
+        {
+            "number": 13,
+            "type": "type_artistic",
+            "statement": "Suka menciptakan sesuatu yang baru dan orisinal, seperti menciptakan resep masakan baru."
+        },
+        {
+            "number": 14,
+            "type": "type_investigative",
+            "statement": "Menggunakan cara metodologis atau terstruktur dalam memecahkan masalah, seperti mengikuti langkah-langkah panduan perakitan mainan."
+        },
+        {
+            "number": 15,
+            "type": "type_investigative",
+            "statement": "Melakukan eksperimen sederhana, seperti mencampur baking soda dan cuka untuk melihat reaksinya."
+        },
+        {
+            "number": 16,
+            "type": "type_artistic",
+            "statement": "Menikmati membuat sketsa, menggambar, atau melukis, seperti membuat doodle di buku catatan."
+        },
+        {
+            "number": 17,
+            "type": "type_social",
+            "statement": "Sangat baik dalam mengolah kata dan berbicara, seperti bercerita di depan kelas."
+        },
+        {
+            "number": 18,
+            "type": "type_enterprising",
+            "statement": "Energik dan percaya diri, seperti bersemangat dalam presentasi di depan kelas."
+        },
+        {
+            "number": 19,
+            "type": "type_conventional",
+            "statement": "Nyaman bekerja dengan data, angka, dan informasi statistik, seperti membuat grafik dari data survei."
+        },
+        {
+            "number": 20,
+            "type": "type_investigative",
+            "statement": "Penasaran dengan dunia alam sekitar, seperti mengamati serangga di taman dan mencatat perilaku mereka."
+        }
+    ]
+}

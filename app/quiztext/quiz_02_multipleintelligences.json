@@ -3,25 +3,436 @@
     "quiz_title": "Multiple Intelligences",
     "statements": [
         {
-            "number": 25,
+            "number": 1,
             "type": "type_spasial",
+            "ide_kunci": "Kemampuan memahami dan mengingat orientasi ruang",
             "statement": "Mampu memahami dan mengingat orientasi ruang, seperti arah dan jarak, seperti dapat dengan mudah mengingat rute perjalanan atau arah di tempat baru."
+        },
+        {
+            "number": 2,
+            "type": "type_spasial",
+            "ide_kunci": "Kemampuan mengingat detail visual",
+            "statement": "Mampu mengingat detail visual dengan baik, seperti wajah, tempat, dan adegan, seperti mengingat dengan jelas detail dari film atau tempat yang pernah dikunjungi."
+        },
+        {
+            "number": 3,
+            "type": "type_naturalis",
+            "ide_kunci": "Kemampuan melihat pengaruh pola-pola alam terhadap lingkungan dan kehidupan manusia",
+            "statement": "Mampu melihat bagaimana pola-pola alam mempengaruhi lingkungan dan kehidupan manusia, seperti memahami siklus air dan dampaknya terhadap pertanian."
+        },
+        {
+            "number": 4,
+            "type": "type_interpersonal",
+            "ide_kunci": "Kemampuan menjadi mediator yang efektif dalam menyelesaikan perselisihan",
+            "statement": "Mampu menjadi mediator yang efektif dalam menyelesaikan perselisihan antara orang lain, seperti membantu teman-teman yang berselisih untuk menemukan solusi yang baik bagi semua pihak."
+        },
+        {
+            "number": 5,
+            "type": "type_intrapersonal",
+            "ide_kunci": "Kemampuan menetapkan tujuan yang jelas dan bekerja keras untuk mencapainya",
+            "statement": "Mampu menetapkan tujuan yang jelas dan bekerja keras untuk mencapainya, seperti membuat rencana langkah demi langkah untuk mencapai target akademis atau karier."
+        },
+        {
+            "number": 6,
+            "type": "type_kinestetik",
+            "ide_kunci": "Kemampuan belajar melalui praktik langsung dan pengalaman fisik",
+            "statement": "Lebih mudah memahami dan mengingat informasi melalui praktik langsung dan pengalaman fisik, seperti belajar keterampilan baru dengan mencoba sendiri, seperti memasak atau merakit sesuatu."
+        },
+        {
+            "number": 7,
+            "type": "type_kinestetik",
+            "ide_kunci": "Kemampuan belajar melalui aksi dan partisipasi langsung",
+            "statement": "Lebih mudah belajar melalui aksi dan partisipasi langsung dibandingkan hanya melalui penjelasan teoritis, seperti belajar tarian baru dengan menirukan gerakan daripada hanya melihat video."
+        },
+        {
+            "number": 8,
+            "type": "type_spasial",
+            "ide_kunci": "Kemampuan mengidentifikasi pola, bentuk, dan hubungan spasial antara objek",
+            "statement": "Pandai mengidentifikasi pola, bentuk, dan hubungan spasial antara objek, seperti suka bermain permainan yang melibatkan bentuk dan pola, seperti puzzle atau Tetris."
+        },
+        {
+            "number": 9,
+            "type": "type_logika",
+            "ide_kunci": "Kemampuan menganalisis masalah secara sistematis dan menemukan solusi logis",
+            "statement": "Mampu menganalisis masalah secara sistematis dan menemukan solusi logis, seperti menikmati memecahkan teka-teki logika atau permainan strategi."
+        },
+        {
+            "number": 10,
+            "type": "type_spasial",
+            "ide_kunci": "Kemampuan membayangkan objek, ruang, dan perubahan bentuk dalam pikiran",
+            "statement": "Mampu membayangkan objek, ruang, dan perubahan bentuk dalam pikiran, seperti membayangkan bagaimana susunan furnitur baru di kamar akan terlihat sebelum memindahkannya."
+        },
+        {
+            "number": 11,
+            "type": "type_logika",
+            "ide_kunci": "Rasa ingin tahu yang tinggi dan suka mengajukan pertanyaan untuk memahami dunia",
+            "statement": "Memiliki rasa ingin tahu yang tinggi dan suka mengajukan pertanyaan untuk memahami dunia di sekitar mereka, seperti bertanya tentang bagaimana sesuatu bekerja dan melakukan penelitian untuk menemukan jawabannya."
+        },
+        {
+            "number": 12,
+            "type": "type_naturalis",
+            "ide_kunci": "Minat besar dalam mempelajari ekosistem, habitat, dan konservasi",
+            "statement": "Memiliki minat besar untuk mempelajari tentang ekosistem, habitat, dan konservasi, seperti suka membaca buku tentang biologi atau menonton dokumenter alam."
+        },
+        {
+            "number": 13,
+            "type": "type_interpersonal",
+            "ide_kunci": "Kemampuan bekerja sama dan membangun hubungan kerja yang harmonis",
+            "statement": "Pandai bekerja sama dengan orang lain dan membangun hubungan kerja yang harmonis, seperti menjadi anggota tim yang aktif dan kontribusi dalam proyek kelompok."
+        },
+        {
+            "number": 14,
+            "type": "type_spasial",
+            "ide_kunci": "Kemampuan membaca dan memahami peta, diagram, dan grafik dengan mudah",
+            "statement": "Mampu membaca dan memahami peta, diagram, dan grafik dengan mudah, seperti dengan cepat menemukan rute di peta atau mengikuti diagram instruksi."
+        },
+        {
+            "number": 15,
+            "type": "type_kinestetik",
+            "ide_kunci": "Kemampuan melakukan aktivitas fisik yang memerlukan daya tahan dan kekuatan",
+            "statement": "Dapat melakukan aktivitas fisik yang memerlukan daya tahan dan kekuatan untuk waktu yang lama, seperti mengikuti latihan kebugaran atau angkat beban secara rutin."
+        },
+        {
+            "number": 16,
+            "type": "type_intrapersonal",
+            "ide_kunci": "Kebiasaan merenungkan pengalaman pribadi dan belajar dari mereka",
+            "statement": "Sering merenungkan pengalaman pribadi dan belajar dari mereka, seperti menulis jurnal atau catatan harian untuk merefleksikan perasaan dan pengalaman."
+        },
+        {
+            "number": 17,
+            "type": "type_intrapersonal",
+            "ide_kunci": "Pemahaman nilai-nilai dan keyakinan pribadi serta hidup sesuai dengan mereka",
+            "statement": "Mengetahui nilai-nilai dan keyakinan pribadi serta hidup sesuai dengan mereka, seperti memilih aktivitas atau pekerjaan yang sesuai dengan nilai dan prinsip pribadi."
+        },
+        {
+            "number": 18,
+            "type": "type_naturalis",
+            "ide_kunci": "Ide-ide kreatif dalam penggunaan dan pemanfaatan sumber daya alam secara berkelanjutan",
+            "statement": "Memiliki ide-ide kreatif dalam menggunakan dan memanfaatkan sumber daya alam secara berkelanjutan, seperti membuat kompos dari limbah dapur untuk digunakan sebagai pupuk."
+        },
+        {
+            "number": 19,
+            "type": "type_naturalis",
+            "ide_kunci": "Kemampuan memperhatikan detail-detail kecil di alam dan memahami interaksi antar spesies",
+            "statement": "Mampu memperhatikan detail-detail kecil di alam dan memahami interaksi antar spesies, seperti mengamati perilaku hewan di taman atau hutan."
+        },
+        {
+            "number": 20,
+            "type": "type_naturalis",
+            "ide_kunci": "Menyukai kegiatan di luar ruangan dan merasa nyaman berada di alam",
+            "statement": "Menyukai kegiatan di luar ruangan dan merasa nyaman berada di alam, seperti menikmati hiking, berkemah, atau berjalan-jalan di taman."
+        },
+        {
+            "number": 21,
+            "type": "type_naturalis",
+            "ide_kunci": "Kepedulian terhadap isu-isu lingkungan dan usaha menjaga kelestarian alam",
+            "statement": "Peduli terhadap isu-isu lingkungan dan berusaha untuk menjaga kelestarian alam, seperti berpartisipasi dalam kegiatan penanaman pohon atau kampanye lingkungan."
+        },
+        {
+            "number": 22,
+            "type": "type_kinestetik",
+            "ide_kunci": "Kemampuan bereaksi cepat dan tepat terhadap situasi yang membutuhkan respon fisik",
+            "statement": "Mampu bereaksi cepat dan tepat terhadap situasi yang membutuhkan respon fisik, seperti menghindari bola yang datang tiba-tiba saat bermain olahraga."
+        },
+        {
+            "number": 23,
+            "type": "type_interpersonal",
+            "ide_kunci": "Kemampuan merasakan dan memahami apa yang dirasakan orang lain",
+            "statement": "Memiliki kemampuan untuk merasakan dan memahami apa yang dirasakan orang lain, seperti menunjukkan dukungan emosional kepada teman yang sedang mengalami masalah."
+        },
+        {
+            "number": 24,
+            "type": "type_intrapersonal",
+            "ide_kunci": "Kemampuan mengelola dan mengontrol emosi secara efektif",
+            "statement": "Mampu mengelola dan mengontrol emosi secara efektif, seperti menggunakan teknik relaksasi atau meditasi untuk mengatasi stres atau kecemasan."
+        },
+        {
+            "number": 25,
+            "type": "type_kinestetik",
+            "ide_kunci": "Koordinasi tubuh yang baik dan kemampuan mengontrol gerakan dengan presisi",
+            "statement": "Memiliki koordinasi tubuh yang baik dan mampu mengontrol gerakan dengan presisi, seperti mahir dalam menari atau melakukan gerakan senam."
+        },
+        {
+            "number": 26,
+            "type": "type_logika",
+            "ide_kunci": "Kemampuan kuat dalam memahami dan menerapkan konsep-konsep matematika",
+            "statement": "Memiliki kemampuan yang kuat dalam memahami konsep-konsep matematika dan menerapkannya, seperti suka mengerjakan soal-soal matematika dan mengikuti olimpiade matematika."
         },
         {
             "number": 27,
             "type": "type_intrapersonal",
-            "statement": "Mampu mengingat detail visual dengan baik, seperti wajah, tempat, dan adegan, seperti mengingat dengan jelas detail dari film atau tempat yang pernah dikunjungi."
+            "ide_kunci": "Kemampuan bekerja secara mandiri dan merasa nyaman bekerja sendiri",
+            "statement": "Mampu bekerja secara mandiri dan merasa nyaman bekerja sendiri, seperti menyelesaikan proyek pribadi atau belajar tanpa membutuhkan banyak bantuan dari orang lain."
         },
         {
-            "number": 71,
+            "number": 28,
+            "type": "type_linguistik",
+            "ide_kunci": "Menikmati berbicara dan berdiskusi serta mampu menyampaikan ide dengan baik",
+            "statement": "Menikmati berbicara dan berdiskusi dengan orang lain, serta mampu menyampaikan ide dengan baik, aktif dalam diskusi kelas atau kelompok belajar."
+        },
+        {
+            "number": 29,
+            "type": "type_linguistik",
+            "ide_kunci": "Menikmati membaca buku, artikel, atau bahan bacaan lainnya",
+            "statement": "Menikmati membaca buku, artikel, atau bahan bacaan lainnya, sering menghabiskan waktu di perpustakaan atau membaca e-book."
+        },
+        {
+            "number": 30,
+            "type": "type_logika",
+            "ide_kunci": "Kemampuan memahami logika pemrograman dan menulis kode untuk membuat program",
+            "statement": "Mampu memahami logika pemrograman dan menulis kode untuk membuat program atau aplikasi, seperti belajar bahasa pemrograman seperti Python atau JavaScript di waktu luang."
+        },
+        {
+            "number": 31,
+            "type": "type_interpersonal",
+            "ide_kunci": "Kemampuan mengenali dan memahami perasaan, motivasi, dan kebutuhan orang lain",
+            "statement": "Mampu mengenali dan memahami perasaan, motivasi, dan kebutuhan orang lain, seperti dapat merasakan ketika teman sedang sedih dan menawarkan dukungan."
+        },
+        {
+            "number": 32,
+            "type": "type_musikal",
+            "ide_kunci": "Musik sebagai alat untuk mengekspresikan perasaan dan pikiran",
+            "statement": "Musik digunakan sebagai alat untuk mengekspresikan perasaan dan pikiran, seperti menulis lirik lagu yang mencerminkan pengalaman pribadi atau perasaan."
+        },
+        {
+            "number": 33,
+            "type": "type_spasial",
+            "ide_kunci": "Kemampuan menggunakan ruang secara kreatif untuk menciptakan karya seni atau proyek desain",
+            "statement": "Mampu menggunakan ruang secara kreatif untuk menciptakan karya seni atau proyek desain, seperti merancang taman atau area bermain dengan tata letak yang menarik."
+        },
+        {
+            "number": 34,
+            "type": "type_linguistik",
+            "ide_kunci": "Kemampuan menghasilkan tulisan kreatif seperti cerita, esai, atau artikel yang menarik",
+            "statement": "Mampu menghasilkan tulisan kreatif seperti cerita, esai, atau artikel yang menarik, sering menulis blog atau cerpen di waktu luang."
+        },
+        {
+            "number": 35,
+            "type": "type_interpersonal",
+            "ide_kunci": "Kemampuan beradaptasi dengan cepat dalam lingkungan sosial baru dan membuat teman dengan mudah",
+            "statement": "Mampu beradaptasi dengan cepat dalam lingkungan sosial baru dan membuat teman dengan mudah, seperti cepat bergaul dengan orang-orang baru dalam acara atau kegiatan komunitas."
+        },
+        {
+            "number": 36,
+            "type": "type_kinestetik",
+            "ide_kunci": "Menikmati kegiatan yang memungkinkan bergerak secara bebas dan aktif",
+            "statement": "Menikmati kegiatan yang memungkinkan mereka bergerak secara bebas dan aktif, seperti senang berlari, bersepeda, atau hiking."
+        },
+        {
+            "number": 37,
+            "type": "type_musikal",
+            "ide_kunci": "Kreatif dalam menciptakan lagu atau komposisi musik",
+            "statement": "Kreatif dalam menciptakan lagu atau komposisi musik, seperti menulis lagu sendiri atau membuat aransemen musik."
+        },
+        {
+            "number": 38,
+            "type": "type_musikal",
+            "ide_kunci": "Kemampuan mengidentifikasi nada, melodi, dan ritme dengan akurat",
+            "statement": "Mampu mengidentifikasi nada, melodi, dan ritme dengan akurat, seperti dapat mengenali nada sebuah lagu hanya dengan mendengarnya sekali."
+        },
+        {
+            "number": 39,
+            "type": "type_kinestetik",
+            "ide_kunci": "Kemampuan menggunakan alat-alat tangan atau peralatan lain dengan tepat",
+            "statement": "Pandai dalam menggunakan alat-alat tangan atau peralatan lain dengan tepat, seperti mahir menggunakan alat pertukangan seperti palu dan gergaji."
+        },
+        {
+            "number": 40,
+            "type": "type_spasial",
+            "ide_kunci": "Menikmati aktivitas yang membutuhkan pemahaman ruang dan bentuk",
+            "statement": "Menikmati aktivitas yang membutuhkan pemahaman ruang dan bentuk, seperti bermain Lego, merakit model 3D, atau bermain permainan strategi."
+        },
+        {
+            "number": 41,
+            "type": "type_linguistik",
+            "ide_kunci": "Bakat dalam mempelajari dan menguasai bahasa asing dengan cepat",
+            "statement": "Memiliki bakat dalam mempelajari dan menguasai bahasa asing dengan cepat, semisal melalui kursus online atau buku."
+        },
+        {
+            "number": 42,
+            "type": "type_logika",
+            "ide_kunci": "Suka melakukan eksperimen untuk melihat hasil dan memahami konsep ilmiah",
+            "statement": "Suka melakukan eksperimen untuk melihat hasil dan memahami konsep ilmiah, seperti membuat eksperimen sains sederhana di rumah untuk memahami prinsip fisika atau kimia."
+        },
+        {
+            "number": 43,
+            "type": "type_intrapersonal",
+            "ide_kunci": "Usaha terus berkembang dan memperbaiki diri",
+            "statement": "Berusaha untuk terus berkembang dan memperbaiki diri, seperti membaca buku pengembangan diri atau mengikuti kursus untuk meningkatkan keterampilan."
+        },
+        {
+            "number": 44,
+            "type": "type_musikal",
+            "ide_kunci": "Kemampuan memahami dan menikmati berbagai jenis musik",
+            "statement": "Memiliki kemampuan untuk memahami dan menikmati berbagai jenis musik, seperti mendengarkan berbagai genre musik seperti klasik, jazz, rock, atau pop."
+        },
+        {
+            "number": 45,
             "type": "type_naturalis",
-            "statement": "Mampu melihat bagaimana pola-pola alam mempengaruhi lingkungan dan kehidupan manusia, seperti memahami siklus air dan dampaknya terhadap pertanian."
+            "ide_kunci": "Menikmati kegiatan berkebun dan merawat tanaman",
+            "statement": "Menikmati kegiatan berkebun dan merawat tanaman di rumah atau taman, seperti menanam bunga, sayuran, atau tumbuhan herbal di kebun."
+        },
+        {
+            "number": 46,
+            "type": "type_spasial",
+            "ide_kunci": "Apresiasi yang baik terhadap keindahan visual dan estetika",
+            "statement": "Memiliki apresiasi yang baik terhadap keindahan visual dan estetika, seperti menikmati seni visual seperti lukisan, fotografi, atau film."
+        },
+        {
+            "number": 47,
+            "type": "type_musikal",
+            "ide_kunci": "Menyukai menonton pertunjukan musik langsung atau konser",
+            "statement": "Senang menonton pertunjukan musik langsung atau konser, seperti sering menghadiri konser lokal atau festival musik."
+        },
+        {
+            "number": 48,
+            "type": "type_interpersonal",
+            "ide_kunci": "Menikmati bergaul dan merasa nyaman dalam situasi sosial",
+            "statement": "Suka bergaul dan merasa nyaman dalam situasi sosial, seperti menikmati menghabiskan waktu bersama teman-teman dan bergabung dalam kegiatan kelompok."
         },
         {
             "number": 49,
+            "type": "type_logika",
+            "ide_kunci": "Kemampuan melihat pola dan hubungan antara data atau informasi yang berbeda",
+            "statement": "Mampu melihat pola dan hubungan antara data atau informasi yang berbeda, seperti suka bermain permainan yang melibatkan pola, seperti Sudoku atau permainan puzzle."
+        },
+        {
+            "number": 50,
+            "type": "type_linguistik",
+            "ide_kunci": "Kemampuan mengekspresikan pikiran dan ide secara jelas dan efektif melalui tulisan atau lisan",
+            "statement": "Mampu mengekspresikan pikiran dan ide secara jelas dan efektif melalui tulisan atau lisan, seperti dalam bentuk cerita pendek, puisi, atau debat."
+        },
+        {
+            "number": 51,
+            "type": "type_naturalis",
+            "ide_kunci": "Kemampuan mengidentifikasi berbagai jenis tanaman, hewan, dan fenomena alam",
+            "statement": "Pandai mengidentifikasi berbagai jenis tanaman, hewan, dan fenomena alam, seperti dapat mengenali berbagai jenis burung atau tanaman dengan mudah."
+        },
+        {
+            "number": 52,
+            "type": "type_linguistik",
+            "ide_kunci": "Kemampuan memahami dan menghargai variasi makna kata dan gaya bahasa",
+            "statement": "Mampu memahami dan menghargai variasi makna kata dan gaya bahasa, menikmati sastra klasik atau karya penulis terkenal."
+        },
+        {
+            "number": 53,
+            "type": "type_musikal",
+            "ide_kunci": "Menikmati dan berbakat dalam menyanyi atau bermain alat musik",
+            "statement": "Menikmati dan berbakat dalam menyanyi atau bermain alat musik, seperti sering bermain gitar atau piano di waktu luang."
+        },
+        {
+            "number": 54,
+            "type": "type_linguistik",
+            "ide_kunci": "Kemampuan menyusun argumen logis dan meyakinkan orang lain",
+            "statement": "Pandai menyusun argumen logis dan meyakinkan orang lain, suka berpartisipasi dalam lomba debat atau diskusi kelompok."
+        },
+        {
+            "number": 55,
+            "type": "type_logika",
+            "ide_kunci": "Kemampuan menggunakan langkah-langkah logis dan terstruktur untuk memecahkan masalah",
+            "statement": "Menggunakan langkah-langkah logis dan terstruktur untuk memecahkan masalah, seperti membuat rencana langkah demi langkah untuk menyelesaikan proyek sekolah."
+        },
+        {
+            "number": 56,
+            "type": "type_logika",
+            "ide_kunci": "Kemampuan menggunakan kalkulator, komputer, atau software untuk menyelesaikan masalah matematika",
+            "statement": "Mampu menggunakan kalkulator, komputer, atau software untuk menyelesaikan masalah matematika, seperti menggunakan aplikasi spreadsheet untuk menganalisis data."
+        },
+        {
+            "number": 57,
             "type": "type_interpersonal",
-            "statement": "Mampu menjadi mediator yang efektif dalam menyelesaikan perselisihan antara orang lain, seperti membantu teman-teman yang berselisih untuk menemukan solusi yang baik bagi semua pihak."
+            "ide_kunci": "Terampil dalam berkomunikasi secara verbal dan non-verbal serta menyampaikan ide dengan jelas",
+            "statement": "Terampil dalam berkomunikasi secara verbal dan non-verbal, serta mampu menyampaikan ide dengan jelas, seperti mampu berbicara di depan umum dengan percaya diri dan meyakinkan."
+        },
+        {
+            "number": 58,
+            "type": "type_linguistik",
+            "ide_kunci": "Kemampuan membuat permainan kata, seperti teka-teki silang atau anagram",
+            "statement": "Mampu membuat permainan kata, seperti teka-teki silang atau anagram, suka mengisi teka-teki silang di majalah atau koran."
+        },
+        {
+            "number": 59,
+            "type": "type_interpersonal",
+            "ide_kunci": "Kemampuan memimpin dan memotivasi orang lain",
+            "statement": "Memiliki kemampuan untuk memimpin dan memotivasi orang lain, seperti menjadi ketua klub atau organisasi siswa yang efektif dan inspiratif."
+        },
+        {
+            "number": 60,
+            "type": "type_interpersonal",
+            "ide_kunci": "Kemampuan mengajarkan atau membimbing orang lain dengan efektif",
+            "statement": "Mampu mengajarkan atau membimbing orang lain dengan efektif, seperti menjadi mentor bagi adik kelas atau teman yang membutuhkan bantuan dalam pelajaran."
+        },
+        {
+            "number": 61,
+            "type": "type_naturalis",
+            "ide_kunci": "Pandai menggunakan peralatan untuk mempelajari atau bekerja dengan alam",
+            "statement": "Pandai menggunakan peralatan untuk mempelajari atau bekerja dengan alam, seperti menggunakan teropong untuk mengamati burung atau mikroskop untuk melihat struktur tumbuhan."
+        },
+        {
+            "number": 62,
+            "type": "type_spasial",
+            "ide_kunci": "Kemampuan menggambar dan mendesain objek atau ruang dengan detail yang akurat",
+            "statement": "Mampu menggambar dan mendesain objek atau ruang dengan detail yang akurat, seperti menikmati menggambar sketsa bangunan atau desain interior."
+        },
+        {
+            "number": 63,
+            "type": "type_intrapersonal",
+            "ide_kunci": "Dorongan internal yang kuat untuk mencapai tujuan dan mengatasi rintangan",
+            "statement": "Memiliki dorongan internal yang kuat untuk mencapai tujuan dan mengatasi rintangan, seperti terus berusaha belajar dan berkembang meskipun menghadapi tantangan."
+        },
+        {
+            "number": 64,
+            "type": "type_intrapersonal",
+            "ide_kunci": "Tertarik pada pertanyaan-pertanyaan eksistensial dan filosofis tentang makna hidup",
+            "statement": "Tertarik pada pertanyaan-pertanyaan eksistensial dan filosofis tentang makna hidup, seperti sering merenungkan pertanyaan seperti 'Apa tujuan hidup saya?' atau 'Apa arti kebahagiaan?'"
+        },
+        {
+            "number": 65,
+            "type": "type_musikal",
+            "ide_kunci": "Kemampuan mengenali dan mengikuti ritme serta pola dalam musik",
+            "statement": "Mampu mengenali dan mengikuti ritme serta pola dalam musik, seperti suka mengikuti ketukan atau ritme dalam musik dengan tepukan tangan atau kaki."
+        },
+        {
+            "number": 66,
+            "type": "type_linguistik",
+            "ide_kunci": "Kemampuan mengingat dan mengutip kutipan, pidato, atau teks dengan mudah",
+            "statement": "Mampu mengingat dan mengutip kutipan, pidato, atau teks dengan mudah, sering menghafal puisi atau pidato untuk acara sekolah."
+        },
+        {
+            "number": 67,
+            "type": "type_kinestetik",
+            "ide_kunci": "Kemampuan melakukan pekerjaan tangan yang memerlukan ketelitian dan keterampilan",
+            "statement": "Mampu melakukan pekerjaan tangan yang memerlukan ketelitian dan keterampilan, seperti membuat kerajinan tangan seperti merajut atau membuat model dari kayu."
+        },
+        {
+            "number": 68,
+            "type": "type_musikal",
+            "ide_kunci": "Kemampuan mengingat dan mengulang lagu atau melodi dengan mudah",
+            "statement": "Mampu mengingat dan mengulang lagu atau melodi dengan mudah, seperti dapat menyanyikan lagu baru setelah hanya sekali mendengarnya."
+        },
+        {
+            "number": 69,
+            "type": "type_logika",
+            "ide_kunci": "Kemampuan memahami dan bekerja dengan konsep-konsep abstrak serta ide-ide yang tidak berwujud",
+            "statement": "Mampu memahami dan bekerja dengan konsep-konsep abstrak serta ide-ide yang tidak berwujud, seperti menikmati mempelajari teori matematika atau konsep-konsep fisika yang kompleks."
+        },
+        {
+            "number": 70,
+            "type": "type_kinestetik",
+            "ide_kunci": "Menikmati dan unggul dalam kegiatan fisik yang melibatkan kekuatan, kecepatan, atau kelincahan",
+            "statement": "Menikmati dan unggul dalam kegiatan fisik yang melibatkan kekuatan, kecepatan, atau kelincahan, seperti bermain olahraga seperti sepak bola, basket, atau bulu tangkis."
+        },
+        {
+            "number": 71,
+            "type": "type_musikal",
+            "ide_kunci": "Pengaruh kuat musik terhadap emosi dan perasaan",
+            "statement": "Musik memiliki pengaruh kuat terhadap emosi dan perasaan mereka, seperti merasa terinspirasi atau termotivasi saat mendengarkan musik favorit."
+        },
+        {
+            "number": 72,
+            "type": "type_intrapersonal",
+            "ide_kunci": "Kemampuan mengenali dan memahami emosi, kekuatan, kelemahan, dan motivasi pribadi",
+            "statement": "Mampu mengenali dan memahami emosi, kekuatan, kelemahan, dan motivasi pribadi, seperti menyadari ketika merasa stres dan tahu cara terbaik untuk mengatasinya."
         }
-       
     ]
 }
