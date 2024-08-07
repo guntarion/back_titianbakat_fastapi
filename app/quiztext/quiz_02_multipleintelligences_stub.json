@@ -1,0 +1,27 @@
+{
+    "quiz_id": "quiz_02_multipleintelligence",
+    "quiz_title": "Multiple Intelligences",
+    "statements": [
+        {
+            "number": 25,
+            "type": "type_spasial",
+            "statement": "Mampu memahami dan mengingat orientasi ruang, seperti arah dan jarak, seperti dapat dengan mudah mengingat rute perjalanan atau arah di tempat baru."
+        },
+        {
+            "number": 27,
+            "type": "type_intrapersonal",
+            "statement": "Mampu mengingat detail visual dengan baik, seperti wajah, tempat, dan adegan, seperti mengingat dengan jelas detail dari film atau tempat yang pernah dikunjungi."
+        },
+        {
+            "number": 71,
+            "type": "type_naturalis",
+            "statement": "Mampu melihat bagaimana pola-pola alam mempengaruhi lingkungan dan kehidupan manusia, seperti memahami siklus air dan dampaknya terhadap pertanian."
+        },
+        {
+            "number": 49,
+            "type": "type_interpersonal",
+            "statement": "Mampu menjadi mediator yang efektif dalam menyelesaikan perselisihan antara orang lain, seperti membantu teman-teman yang berselisih untuk menemukan solusi yang baik bagi semua pihak."
+        }
+       
+    ]
+}
