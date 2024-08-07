@@ -5,6 +5,7 @@ from app.router.router_fingerprintanalysis import router as fingerprintanalysis_
 from app.router.router_user import router as user_router 
 from app.router.router_quiz import router as quiz_router
 from app.router.router_quizresponse import router as quizresponse_router
+from app.router import router_followup
 
 import json
 import os
@@ -25,6 +26,7 @@ app.include_router(fingerprintanalysis_router, prefix="/api", tags=["fingerprint
 app.include_router(user_router, prefix="/api", tags=["users"])
 app.include_router(quiz_router, prefix="/api", tags=["quiz"])
 app.include_router(quizresponse_router, prefix="/api", tags=["quizresponse"])
+app.include_router(router_followup.router, prefix="/api")
 
 @app.get("/")
 async def root():
